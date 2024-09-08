@@ -10,9 +10,9 @@ The original source code of the TS-UNB-Lib is published (copyright 2019 - 2023 F
 
 ## License
 
-All parts of the repository written by Paul ADAM (e.g.: subdirectories and files starting with prefix "it" in the directory "itSource") are distributed under the [license](https://github.com/paul-adam/TS-UNB-Lib-STM32/blob/main/LICENSE.md).
+All parts of the repository written by Paul ADAM (e.g.: subdirectories and files starting with prefix "it" in the directory "itSource") are distributed under the [license](./LICENSE.md).
 
-The part of the original source code from "Fraunhofer-Gesellschaft" (source code in directory "itSource/ItMioty/TS-UNB") is distributed under the [license](https://github.com/paul-adam/TS-UNB-Lib-STM32/blob/main/LICENSE-Fraunhofer.md).
+The part of the original source code from "Fraunhofer-Gesellschaft" (source code in directory "itSource/ItMioty/TS-UNB") is distributed under the [license](./LICENSE-Fraunhofer.md).
 
 The TS-UNB technology is protected by patents. More information can be found at [sisvel](https://www.sisvel.com/licensing-programmes/iot/mioty/).
 
@@ -40,7 +40,7 @@ The software in this repository is organized in different directories.
 
 ### Generic software
 
-The directory "itSource" contains the generic code (including the TS-UNB-Lib) which can be compiled and executed on many STM32 micro controllers (named as "execution targets"). Adaptations for specific micro controllers are managed by conditional compile with defines. The source code documentation may be found in "https://github.com/paul-adam/TS-UNB-Lib-STM32/blob/main/itSource/documentation/html/index.html"
+The directory "itSource" contains the generic code (including the TS-UNB-Lib) which can be compiled and executed on many STM32 micro controllers (named as "execution targets"). Adaptations for specific micro controllers are managed by conditional compile with defines. The source code documentation may be found in "./itSource/documentation/html/index.html"
 
 ### Specific software
 
@@ -81,7 +81,7 @@ The image below shows
 
 The green shield is also simply connecting the lines listed above from mikrobus connector the the RFM69W module.
 
-<img src="https://github.com/paul-adam/TS-UNB-Lib-STM32/blob/main/image/Mioty_HW_TX.png" width="400">
+<img src="./image/Mioty_HW_TX.png" width="400">
 
 # Microcontroller peripherals
 
