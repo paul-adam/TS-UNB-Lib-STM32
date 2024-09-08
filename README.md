@@ -40,7 +40,7 @@ The software in this repository is organized in different directories.
 
 ### Generic software
 
-The directory "itSource" contains the generic code (including the TS-UNB-Lib) which can be compiled and executed on many STM32 micro controllers (named as "execution targets"). Adaptations for specific micro controllers are managed by conditional compile with defines. The source code documentation may be found in "./itSource/documentation/html/index.html"
+The directory "itSource" contains the generic code (including the TS-UNB-Lib) which can be compiled and executed on many STM32 micro controllers (named as "execution targets"). Adaptations for specific micro controllers are managed by conditional compile with defines. The source code documentation may be found [here](./itSource/documentation/html/index.html).
 
 ### Specific software
 
