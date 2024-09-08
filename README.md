@@ -74,11 +74,11 @@ A nice diagram is shown in chapter "1.1.2 Hardware setup" of the document "https
 
 The image shows a white STM32WB55_NUCLEO board, a blue [arduino-microe adapter board](https://www.mikroe.com/arduino-uno-click-shield) (which is only needed to redirect the arduino connector of the nucleo board to the [mikrobus](https://download.mikroe.com/documents/standards/mikrobus/mikrobus-standard-specification-v200.pdf) connector used by the green shield with the RFM69W module.
 
-![Hardware boards](image/Mioty_HW.jpg  =200x)
+![Hardware boards](https://github.com/paul-adam/TS-UNB-Lib-STM32/blob/main/image/Mioty_HW.jpg  =200x)
 
 The green shield is also simply connecting the lines listed above from mikrobus connector the the RFM69W module.
 
-![RFM69W shield](image/Mioty_HW_TX.jpg  =200x)
+![RFM69W shield](https://github.com/paul-adam/TS-UNB-Lib-STM32/blob/main/image/Mioty_HW_TX.jpg  =200x)
 
 # Microcontroller peripherals
 
