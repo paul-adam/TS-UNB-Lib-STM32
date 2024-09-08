@@ -61,7 +61,7 @@ The LL (low level) drivers of STMicroelectronics are used, since they are much f
 The execution targets may be some development boards, nucleo boards or even customer production boards. They are connected to the transmiter module "RFM69W" with following connections:
 
 * GND:  Ground
-* 3V3:  3.3 VCC power supply
+* 3V3:  3.3 volt VCC power supply
 * SCLK: SPI "serial clock"
 * MOSI: SPI "master out slave in"
 * MISO: SPI "master in slave out"
@@ -70,14 +70,14 @@ The execution targets may be some development boards, nucleo boards or even cust
 
 The transmiter module "RFM69W" is directly connected to the antenna. 
 
-A nice diagram is shown in chapter "1.1.2 Hardware setup" of the document "https://github.com/mioty-iot/TS-UNB-Lib-Pico/blob/main/documentation/RP_Pico_mioty_Manual.pdf" (of course the Pico board must be replaced by STM32 board).
+A nice diagram is shown in chapter "1.1.2 Hardware Setup" of the document "https://github.com/mioty-iot/TS-UNB-Lib-Pico/blob/main/documentation/RP_Pico_mioty_Manual.pdf" (of course the Pico board must be replaced by STM32 board).
 
 The image below shows 
 * a white STM32WB55_NUCLEO board, 
 * a blue [arduino-microe adapter board](https://www.mikroe.com/arduino-uno-click-shield), which is only needed to redirect the arduino connector of the nucleo board to the [mikrobus](https://download.mikroe.com/documents/standards/mikrobus/mikrobus-standard-specification-v200.pdf) connector. The soldered blue and gray cables are needed only for I2C connectivity (not used in this use case). 
-* the green shield with the RFM69W module and an antenna connector. 
+* the green shield with the RFM69W module and an SMA connector. 
 
-<img src="https://github.com/paul-adam/TS-UNB-Lib-STM32/blob/main/image/Mioty_HW.jpg" width="400">
+<img src="./image/Mioty_HW.jpg" width="400">
 
 The green shield is also simply connecting the lines listed above from mikrobus connector the the RFM69W module.
 
@@ -85,7 +85,7 @@ The green shield is also simply connecting the lines listed above from mikrobus 
 
 # Microcontroller peripherals
 
-Following peripherals are needed by the software stack
+Following peripherals are needed by the software stack:
 
 * SPI: The software stack needs a SPI to communicate to the RFM69W module.
 * Timer: The software stack needs a timer. Since 32 bit timer are rare on STM32 MCUs, a 16 bit timer is used. The timer must be configured to be triggered each micro second.
