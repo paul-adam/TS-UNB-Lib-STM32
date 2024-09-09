@@ -1,0 +1,12 @@
+<map id="itFoundation/include/ItCallback.h" name="itFoundation/include/ItCallback.h">
+<area shape="rect" id="node1" title="Header file with API for ItCallback module." alt="" coords="713,5,868,47"/>
+<area shape="rect" id="node2" href="$d5/da7/ItStdioTrace_8h.html" title="Header file with API for ItStdio module." alt="" coords="689,95,799,121"/>
+<area shape="rect" id="node9" title=" " alt="" coords="805,169,888,196"/>
+<area shape="rect" id="node3" href="$d9/db6/ItConfig_8h.html" title="Header file with defines for code configuration." alt="" coords="374,169,458,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="507,319,578,345"/>
+<area shape="rect" id="node10" title=" " alt="" coords="707,169,781,196"/>
+<area shape="rect" id="node4" href="$d5/dc0/ItConfig__Dependency_8h.html" title="Header file with defines for execution target configuration." alt="" coords="5,244,176,271"/>
+<area shape="rect" id="node5" href="$dd/d03/ItConfig__Target_8h.html" title=" " alt="" coords="200,244,331,271"/>
+<area shape="rect" id="node6" href="$d5/d45/ItConfig__Core_8h.html" title="Header file with defines for the MCU core and tool chain." alt="" coords="355,244,477,271"/>
+<area shape="rect" id="node8" href="$d6/d76/ItConfig__Check_8h.html" title="Header file with defines for execution target configuration." alt="" coords="501,244,632,271"/>
+</map>

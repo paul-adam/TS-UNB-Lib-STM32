@@ -1,0 +1,11 @@
+<map id="itFoundation/include/ItCallback.h" name="itFoundation/include/ItCallback.h">
+<area shape="rect" id="node1" title="Header file with API for ItCallback module." alt="" coords="559,5,713,47"/>
+<area shape="rect" id="node2" href="$ItStdioTrace_8h.html" title="Header file with API for ItStdio module." alt="" coords="534,95,645,121"/>
+<area shape="rect" id="node8" title=" " alt="" coords="651,169,733,196"/>
+<area shape="rect" id="node3" href="$ItConfig_8h.html" title="Header file with defines for code configuration." alt="" coords="299,169,383,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="430,319,501,345"/>
+<area shape="rect" id="node9" title=" " alt="" coords="552,169,627,196"/>
+<area shape="rect" id="node4" href="$ItConfig__Dependency_8h.html" title="Header file with defines for execution target configuration." alt="" coords="5,244,176,271"/>
+<area shape="rect" id="node5" href="$ItConfig__Target_8h.html" title="Header file with defines for execution target configuration." alt="" coords="200,244,331,271"/>
+<area shape="rect" id="node6" href="$ItConfig__Core_8h.html" title="Header file with defines for the MCU core." alt="" coords="355,244,477,271"/>
+</map>

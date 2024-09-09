@@ -1,5 +1,8 @@
 .metadata/
+.settings/
 
+Debug/
+Release/
 
 # Prerequisites
 *.d

@@ -1,0 +1,8 @@
+<map id="itMiotySampleApplication/include/ItConfig.h" name="itMiotySampleApplication/include/ItConfig.h">
+<area shape="rect" id="node1" title="Header file with defines for code configuration." alt="" coords="245,5,435,47"/>
+<area shape="rect" id="node2" href="$d5/dc0/ItConfig__Dependency_8h.html" title="Header file with defines for execution target configuration." alt="" coords="5,95,176,121"/>
+<area shape="rect" id="node3" href="$dd/d03/ItConfig__Target_8h.html" title=" " alt="" coords="200,95,331,121"/>
+<area shape="rect" id="node4" href="$d5/d45/ItConfig__Core_8h.html" title="Header file with defines for the MCU core and tool chain." alt="" coords="355,95,477,121"/>
+<area shape="rect" id="node6" href="$d6/d76/ItConfig__Check_8h.html" title="Header file with defines for execution target configuration." alt="" coords="501,95,632,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="381,169,451,196"/>
+</map>

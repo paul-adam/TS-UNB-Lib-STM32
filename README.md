@@ -21,7 +21,7 @@ The TS-UNB technology is protected by patents. More information can be found at 
 The software in this repository implements the same functionality as the original TS-UNB-lib (with its published example code):
 
 * Executing on a "mioty endpoint device", the code uploads some data ("Hello" message) to the mioty base station which will forward the message to the mioty application server.
-* The generic code executing on the micro controller communicates via SPI with an external module "RFM69W" responsable to do the radio transmission.
+* The generic code executing on the micro controller communicates via SPI with an external module [RFM69W](https://www.hoperf.com/modules/rf_transceiver/RFM69W.html) responsable to do the radio transmission.
 * Using this technology, every micro controller with timer and SPI (with minimum speed) could do the mioty upload communication.
 * Thus much information given in https://github.com/mioty-iot may be used to understand the code.
 
@@ -40,7 +40,7 @@ The software in this repository is organized in different directories.
 
 ### Generic software
 
-The directory "itSource" contains the generic code (including the TS-UNB-Lib) which can be compiled and executed on many STM32 micro controllers (named as "execution targets"). Adaptations for specific micro controllers are managed by conditional compile with defines. The source code documentation may be found [here](./itSource/documentation/html/index.html).
+The directory "itSource" contains the generic code (including the TS-UNB-Lib) which can be compiled and executed on many STM32 micro controllers (named as "execution targets"). Adaptations for specific micro controllers are managed by conditional compile with defines. The source code documentation may be found [here](./itSource/documentation/html/index.html). The presented public source code in this directory is only a very small part of the complete non public "itSource". Thus many conditional compile defines may generate compile errors, when defined.
 
 ### Specific software
 
@@ -58,7 +58,7 @@ The LL (low level) drivers of STMicroelectronics are used, since they are much f
 
 # Hardware
 
-The execution targets may be some development boards, nucleo boards or even customer production boards. They are connected to the transmiter module "RFM69W" with following connections:
+The execution targets may be some development boards, nucleo boards or even customer production boards. They are connected to the transmiter module [RFM69W](https://www.hoperf.com/modules/rf_transceiver/RFM69W.html) with following connections:
 
 * GND:  Ground
 * 3V3:  3.3 volt VCC power supply
@@ -68,18 +68,18 @@ The execution targets may be some development boards, nucleo boards or even cust
 * CS:   SPI chip select
 * RST:  Reset line
 
-The transmiter module "RFM69W" is directly connected to the antenna. 
+The transmiter module [RFM69W](https://www.hoperf.com/modules/rf_transceiver/RFM69W.html) is directly connected to the antenna. 
 
-A nice diagram is shown in chapter "1.1.2 Hardware Setup" of the document "https://github.com/mioty-iot/TS-UNB-Lib-Pico/blob/main/documentation/RP_Pico_mioty_Manual.pdf" (of course the Pico board must be replaced by STM32 board).
+A nice diagram is shown in chapter "1.1.2 Hardware Setup" of the [document](https://github.com/mioty-iot/TS-UNB-Lib-Pico/blob/main/documentation/RP_Pico_mioty_Manual.pdf) (of course the Pico board must be replaced by STM32 board).
 
 The image below shows 
 * a white STM32WB55_NUCLEO board, 
 * a blue [arduino-microe adapter board](https://www.mikroe.com/arduino-uno-click-shield), which is only needed to redirect the arduino connector of the nucleo board to the [mikrobus](https://download.mikroe.com/documents/standards/mikrobus/mikrobus-standard-specification-v200.pdf) connector. The soldered blue and gray cables are needed only for I2C connectivity (not used in this use case). 
-* the green shield with the RFM69W module and an SMA connector. 
+* the green shield with the [RFM69W](https://www.hoperf.com/modules/rf_transceiver/RFM69W.html) module and an SMA connector. 
 
 <img src="./image/Mioty_HW.jpg" width="400">
 
-The green shield is also simply connecting the lines listed above from mikrobus connector the the RFM69W module.
+The green shield is also simply connecting the lines listed above from mikrobus connector the the [RFM69W](https://www.hoperf.com/modules/rf_transceiver/RFM69W.html) module.
 
 <img src="./image/Mioty_HW_TX.png" width="400">
 
@@ -87,9 +87,9 @@ The green shield is also simply connecting the lines listed above from mikrobus 
 
 Following peripherals are needed by the software stack:
 
-* SPI: The software stack needs a SPI to communicate to the RFM69W module.
+* SPI: The software stack needs a SPI to communicate to the [RFM69W](https://www.hoperf.com/modules/rf_transceiver/RFM69W.html) module.
 * Timer: The software stack needs a timer. Since 32 bit timer are rare on STM32 MCUs, a 16 bit timer is used. The timer must be configured to be triggered each micro second.
-* GPIO are needed to control the RFM69W module ( CS and RST ).
+* GPIO are needed to control the [RFM69W](https://www.hoperf.com/modules/rf_transceiver/RFM69W.html) module ( CS and RST ).
 * Additional GPIO (e.g.: LEDs or test points) may be used for debug purpose. 
 
 # Contribution

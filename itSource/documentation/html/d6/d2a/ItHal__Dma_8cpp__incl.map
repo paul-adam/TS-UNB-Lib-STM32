@@ -1,0 +1,9 @@
+<map id="itHal/source/ItHal_Dma.cpp" name="itHal/source/ItHal_Dma.cpp">
+<area shape="rect" id="node1" title="Source file for ItHal_Dma module." alt="" coords="273,5,407,47"/>
+<area shape="rect" id="node2" href="$d9/db6/ItConfig_8h.html" title="Header file with defines for code configuration." alt="" coords="298,95,382,121"/>
+<area shape="rect" id="node3" href="$d5/dc0/ItConfig__Dependency_8h.html" title="Header file with defines for execution target configuration." alt="" coords="5,169,176,196"/>
+<area shape="rect" id="node4" href="$dd/d03/ItConfig__Target_8h.html" title=" " alt="" coords="200,169,331,196"/>
+<area shape="rect" id="node5" href="$d5/d45/ItConfig__Core_8h.html" title="Header file with defines for the MCU core and tool chain." alt="" coords="355,169,477,196"/>
+<area shape="rect" id="node7" href="$d6/d76/ItConfig__Check_8h.html" title="Header file with defines for execution target configuration." alt="" coords="501,169,632,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="381,244,451,271"/>
+</map>

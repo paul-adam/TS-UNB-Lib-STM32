@@ -1,0 +1,12 @@
+<map id="itConfig/include/ItConfig_Dependency.h" name="itConfig/include/ItConfig_Dependency.h">
+<area shape="rect" id="node1" title="Header file with defines for execution target configuration." alt="" coords="509,5,686,47"/>
+<area shape="rect" id="node2" href="$ItConfig_8h.html" title="Header file with defines for code configuration." alt="" coords="509,95,685,136"/>
+<area shape="rect" id="node3" href="$ItStdioTrace_8h.html" title="Header file with API for ItStdio module." alt="" coords="5,184,160,225"/>
+<area shape="rect" id="node5" href="$ItHal_8cpp.html" title=" " alt="" coords="184,191,347,218"/>
+<area shape="rect" id="node6" href="$ItHal__Dma_8cpp.html" title="Source file for ItHal_Dma module." alt="" coords="371,184,506,225"/>
+<area shape="rect" id="node7" href="$ItHal__Spi_8cpp.html" title="Source file for ItHal_Spi module." alt="" coords="530,184,665,225"/>
+<area shape="rect" id="node8" href="$ItMioty_8cpp.html" title="Source file for ItMioty module." alt="" coords="689,191,879,218"/>
+<area shape="rect" id="node9" href="$sendString_8cpp.html" title=" " alt="" coords="903,184,1094,225"/>
+<area shape="rect" id="node10" href="$STM32TsUnb_8h.html" title="TS&#45;UNB abstractions for STM32 micro controllers." alt="" coords="1118,184,1263,225"/>
+<area shape="rect" id="node4" href="$ItCallback_8h.html" title="Header file with API for ItCallback module." alt="" coords="5,273,160,315"/>
+</map>

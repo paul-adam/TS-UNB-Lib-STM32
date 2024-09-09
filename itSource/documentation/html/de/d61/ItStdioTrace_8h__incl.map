@@ -1,0 +1,11 @@
+<map id="itFoundation/include/ItStdioTrace.h" name="itFoundation/include/ItStdioTrace.h">
+<area shape="rect" id="node1" title="Header file with API for ItStdio module." alt="" coords="631,5,785,47"/>
+<area shape="rect" id="node2" href="$d9/db6/ItConfig_8h.html" title="Header file with defines for code configuration." alt="" coords="374,95,458,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="507,244,578,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="707,95,789,121"/>
+<area shape="rect" id="node9" title=" " alt="" coords="813,95,888,121"/>
+<area shape="rect" id="node3" href="$d5/dc0/ItConfig__Dependency_8h.html" title="Header file with defines for execution target configuration." alt="" coords="5,169,176,196"/>
+<area shape="rect" id="node4" href="$dd/d03/ItConfig__Target_8h.html" title=" " alt="" coords="200,169,331,196"/>
+<area shape="rect" id="node5" href="$d5/d45/ItConfig__Core_8h.html" title="Header file with defines for the MCU core and tool chain." alt="" coords="355,169,477,196"/>
+<area shape="rect" id="node7" href="$d6/d76/ItConfig__Check_8h.html" title="Header file with defines for execution target configuration." alt="" coords="501,169,632,196"/>
+</map>
