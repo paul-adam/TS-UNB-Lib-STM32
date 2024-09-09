@@ -1,5 +1,5 @@
-itSource Documentation {#mainpage}
-======================
+itSource Documentation
+======
 
 # Software
 
